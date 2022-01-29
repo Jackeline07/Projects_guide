@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 65.2%;
+}
+.header{
+    background-color: antiquewhite;
+    height: 4rem;
+    width: 96rem;
+}
+
+.nav-main img{
+    position: relative;
+    left: 1rem;
+    border-radius: 50px;
+
+}
+
+.nav-main ul li{
+    position: relative;
+    top: -2.5rem;
+    left: 60rem;
+    display: inline-block;
+    border-right: 0.5px solid black;
+    padding-right: 1rem;
+    
+}
+
+.nav-main--item{
+    margin-right: 2rem;
+}
+.nav-main--item a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.nav-main--item a:active{
+    color: coral;
+}
+
+.nav-main--item a:hover{
+    color: blue;
+}
+
+/*Menu lateral*/
+
+aside{
+    background: chocolate;
+    display: inline-block;
+}
+
+.left-container{
+    width: 20rem;
+    height: 38rem;
+}
+
+.left-container div{
+    width:15rem;
+    height: 8rem;
+    background-color: aqua;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+/*Menu principal*/
+
+section{
+    background-color: blue;
+    width: 76rem;
+    height: 38rem;
+    display: inline-block;
+    position: absolute;
+    left: 20rem;
+
+}
+/*Footer*/
+
+.footer{
+    background-color: brown;
+    width: 96rem;
+    height: 3.7rem;
+}

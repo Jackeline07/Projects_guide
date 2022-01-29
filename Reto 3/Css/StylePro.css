@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #4776E6;  /* fallback for old browsers */
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*Barra de navegacion*/
+.header{
+    height: 4rem;
+    width: 96rem;
+}
+
+.nav-main figure img{
+    position: relative;
+    left: 2rem;
+    width: 3.5rem;
+
+}
+
+.nav-main figure figcaption{
+    position: absolute;
+    left: 6rem;
+    top: 2rem;
+    font-weight: bold;
+}
+
+.nav-main ul li{
+    position: relative;
+    top: -2.5rem;
+    left: 60rem;
+    display: inline-block;
+    border-right: 0.5px solid black;
+    padding-right: 1rem;
+    
+}
+
+.nav-main--item{
+    margin-right: 1.6rem;
+}
+
+.nav-main--item .button{
+    width: 4.1rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #8E54E9;
+    border: 2px solid #4776E6 ;
+    font-weight: bold;
+    -webkit-box-shadow: 7px 7px 7px -3px rgba(0,0,0,0.63); 
+    box-shadow: 7px 7px 7px -3px rgba(0,0,0,0.63);
+    
+}
+
+.nav-main--item input:hover{
+    cursor: pointer;
+    background-color: #009FFF;
+}
+
+
+/*Menu lateral*/
+
+aside{
+
+    display: inline-block;
+}
+
+.left-container{
+    width: 16rem;
+    height: 32rem;
+    
+}
+
+.left-container div{
+    width:15rem;
+    height: 8.5rem;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    background-color: #8E54E9;
+    border: 1px solid #4776E6 ;
+    -webkit-box-shadow: 7px 7px 9px 3px rgba(0,0,0,0.77); 
+    box-shadow: 7px 7px 9px 3px rgba(0,0,0,0.77);
+    font-weight: bold;
+    
+}
+
+.left-container div a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.left-container div:hover{
+    background-color: #009FFF;
+    cursor: pointer;
+}
+.left-container--item1 figure img{
+    position: relative;
+    width: 4rem;
+    top: 1rem;
+    left: 5rem;
+    
+}
+
+.left-container--item1 figcaption{
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+    
+}
+
+.left-container--item2 figure img{
+    position: relative;
+    width: 4rem;
+    top: 1rem;
+    left: 5rem;
+    
+}
+
+.left-container--item2 figcaption{
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+    
+}
+
+.left-container--item3 figure img{
+    position: relative;
+    width: 4rem;
+    top: 1rem;
+    left: 5.5rem;
+    
+}
+
+.left-container--item3 figcaption{
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+    
+}
+
+.left-container--item4 figure img{
+    position: relative;
+    width: 4.5rem;
+    top: 1rem;
+    left: 5rem;
+    
+}
+
+.left-container--item4 figcaption{
+    position: relative;
+    top: 1.5rem;
+    left: 3rem;;
+    justify-content: center;
+    
+}
+
+
+/*Menu principal*/
+
+section{
+    display: inline-block;
+    position: absolute;
+    left: 20rem;
+
+}
+
+section figure img{
+    position: relative;
+    width: 35rem;
+    top: 4rem;
+    left: 10rem;
+}
+
+
+section p{
+    position: relative;
+    left: 49rem;
+    top: 10rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
