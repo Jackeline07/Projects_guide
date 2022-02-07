@@ -1,4 +1,4 @@
-# Welcome :editormd-logo-2x:
+# Welcome 
 
 - **This repository has a prototype structure in HTML and CSS!**
 
