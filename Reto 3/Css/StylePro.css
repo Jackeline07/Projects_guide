@@ -12,7 +12,7 @@ body{
 /*Barra de navegacion*/
 .nav-main{
     height: 5rem;
-    width: 100rem;
+    width: 100%;
 }
 
 .nav-main figure img{
@@ -37,8 +37,8 @@ body{
 
 .nav-main ul li{
     position: relative;
-    top: -3.7rem;
-    left: 70rem;
+    top: -4rem;
+    left: 50rem;
     display: inline-block;
     border-right: 0.5px solid black;
     padding-right: 1rem;
@@ -50,8 +50,8 @@ body{
 }
 
 .nav-main--item .button{
-    width: 6.5rem;
-    height: 3rem;
+    width: 6rem;
+    height: 2.5rem;
     border-radius: 2rem;
     background-color: #8E54E9;
     border: 2px solid #4776E6 ;
@@ -75,13 +75,15 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 20rem;
+    height: 8;
 
 }
 
 
 .left-container div{
-    width:18rem;
-    height: 10rem;
+    width:15rem;
+    height: 7.5rem;
     border-radius: 20px;
     margin-bottom: 0.5rem;
     margin-top: 1.2rem;
@@ -104,98 +106,90 @@ aside{
     background-color: #009FFF;
     cursor: pointer;
 }
+
 .left-container--item1 figure img{
     position: relative;
-    width: 4rem;
-    top: 1rem;
-    left: 4.1rem;
+    width: 3.2rem;
+    left: 3rem;
     
 }
 
 .left-container--item1 figcaption{
     position: relative;
-    top: 2rem;
-    left: 2.7rem;
+    top: 0.5rem;
+    left: 1.5rem;
     
 }
 
 .left-container--item2 figure img{
     position: relative;
-    width: 4rem;
-    top: 1rem;
-    left: 4.1rem;
+    width: 3.2rem;
+    left: 3rem;
     
 }
 
 .left-container--item2 figcaption{
     position: relative;
-    top: 2rem;
-    left: 3.2rem;
+    top: 0.5rem;
+    left: 1.5rem;
     
 }
 
 .left-container--item3 figure img{
     position: relative;
-    width: 4rem;
-    top: 1rem;
-    left: 4.1rem;
-    
+    width: 3.2rem;
+    left: 3rem;
 }
 
 .left-container--item3 figcaption{
     position: relative;
-    top: 2rem;
-    left: 3rem;
+    top: 0.5rem;
+    left: 1.5rem;
     
 }
 
 .left-container--item4 figure img{
     position: relative;
-    width: 4.5rem;
-    top: 1rem;
-    left: 4.1rem;
+    width: 3.2rem;
+    left: 3rem;
     
 }
 
 .left-container--item4 figcaption{
     position: relative;
-    top: 1.5rem;
-    left: 1.8rem;;
-    justify-content: center;
-    
+    top: 0.5rem;
+    left: 0.5rem;
 }
 
 
 /*Menu principal*/
 
-section{
+.main-picture{
+    position: absolute;
+    left:25rem;
+}
+.main-picture figure img{
+    width: 550px;
+}
+section .main-title{
     display: flex;
-    position: absolute;
-    left: 20rem;
 
 }
 
-section figure img{
+.main-title p{
     position: absolute;
-    width: 45rem;
-    top: 4rem;
-    left: 10rem;
-}
-
-
-section p{
-    position: absolute;
-    font-size: 6rem;
+    width: 20rem;
+    left: 68rem;
+    top: 12rem;
+    flex-wrap: wrap;
     font-weight: bold;
-    color: whitesmoke;
-    left: 65rem;
-    top: 8rem;
-
+    font-size: 4rem;
+    
 }
 
-section p:hover{
+.main-title p:hover{
+    color:#1DF2F2;
     cursor: pointer;
-    color: #1DF2F2;
 }
 
 /*Responsive*/
